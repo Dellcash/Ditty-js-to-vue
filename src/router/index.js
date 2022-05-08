@@ -21,7 +21,14 @@ const router = createRouter({
         title: 'پس‌زمینه'
       }
     },
-
+    {
+      path: '/bmi',
+      name: '/BMI',
+      component: () => import('../pages/BMI.vue'),
+      meta: {
+        title: 'بی‌ام‌آی'
+      }
+    }
   ]
 })
 

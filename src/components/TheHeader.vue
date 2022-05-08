@@ -4,6 +4,7 @@
 	<nav>
 		<router-link to="/" style="margin-left: 20px">صفحه نخست</router-link>
 		<router-link to="/change-background">پس‌زمینه</router-link>
+		<router-link to="/bmi">بی‌ام‌آی</router-link>
 	</nav>
 </template>
 

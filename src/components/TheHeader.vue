@@ -18,6 +18,10 @@ const navs = ref([
 		title: "پنجره مدال",
 		link: "/modal",
 	},
+	{
+		title: "تسک‌ها",
+		link: "/todo",
+	},
 ]);
 
 const open = ref(false);

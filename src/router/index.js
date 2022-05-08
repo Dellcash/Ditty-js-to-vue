@@ -36,6 +36,14 @@ const router = createRouter({
       meta: {
         title: 'پنجره مدال'
       }
+    },
+    {
+      path: '/todo',
+      name: '/Todo',
+      component: () => import('../pages/Todo.vue'),
+      meta: {
+        title: 'تسک‌ها'
+      }
     }
   ]
 })

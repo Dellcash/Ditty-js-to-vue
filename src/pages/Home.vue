@@ -1,16 +1,38 @@
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+
+// images
+import Background from "../assets/images/دیتی-پس_زمینه.png";
+import BMI from "../assets/images/دیتی-بی_ام_آی.png";
+import Modal from "../assets/images/دیتی-پنجره-مدال.png";
+import Todo from "../assets/images/دیتی-تسک_ها.png";
+
+const projects = ref([
+	{
+		link: "/change-background",
+		img: Background,
+	},
+	{
+		link: "/bmi",
+		img: BMI,
+	},
+	{
+		link: "/modal",
+		img: Modal,
+	},
+	{
+		link: "/todo",
+		img: Todo,
+	},
+]);
+</script>
 
 <template>
 	<div>
 		<main>
-			<div class="pic">
-				<router-link to="/change-background">
-					<img src="../assets/images/دیتی-پس_زمینه.png" alt="" />
-				</router-link>
-			</div>
-			<div class="pic">
-				<router-link to="/bmi">
-					<img src="../assets/images/دیتی-بی_ام_آی.png" alt="" />
+			<div v-for="project in projects" :key="project" class="pic">
+				<router-link :to="project.link">
+					<img :src="project.img" alt="" />
 				</router-link>
 			</div>
 		</main>

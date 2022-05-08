@@ -28,6 +28,14 @@ const router = createRouter({
       meta: {
         title: 'بی‌ام‌آی'
       }
+    },
+    {
+      path: '/modal',
+      name: '/Modal',
+      component: () => import('../pages/Modal.vue'),
+      meta: {
+        title: 'پنجره مدال'
+      }
     }
   ]
 })

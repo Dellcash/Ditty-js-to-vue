@@ -1,29 +1,28 @@
-[Ditty](https://ditty.ir/courses/javascript-projects-for-beginners/introduction/X8gVn)
+<div id="top"></div>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** Don't forget to give the project a star!
+-->
 
-# js-to-vue
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/dellcash/]
 
-## این مخزن ۱۰ پروژه جاواسکریپتی ای که توسط سایت 'دیتی' توسعه داده شده بود که من به 'ویوو‌جی‌اس' تبدیلش کردم برای دوستانی که تازه ویوو رو شروع کردن.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-###
+  <h3 align="center">JS-to-VUE</h3>
 
-## Recommended IDE Setup
+  <p align="center">
+    این مخزن ۱۰ پروژه جاواسکریپتی ای که توسط سایت 'دیتی' توسعه داده شده بود که من به 'ویوو‌جی‌اس' تبدیلش کردم برای دوستانی که تازه ویوو رو شروع کردن.
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+  </p>
+  
+  <br />
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+[![Product Name Screen Shot][product-screenshot]]('/src/assets/images/دیتی-صفحه-نخست.png')
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+</div>

@@ -4,9 +4,6 @@
 *** Don't forget to give the project a star!
 -->
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
@@ -18,11 +15,14 @@
   <p align="center">
     این مخزن ۱۰ پروژه جاواسکریپتی ای که توسط سایت 'دیتی' توسعه داده شده بود که من به 'ویوو‌جی‌اس' تبدیلش کردم برای دوستانی که تازه ویوو رو شروع کردن.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/othneildrew/Best-README-Template">js-to-vue Demo</a>
+    ·
+    <a href="https://ditty.ir/courses/javascript-projects-for-beginners/introduction/X8gVn">Ditty project page</a>
+  </p>
   </p>
   
   <br />
 
-[![Product Name Screen Shot][product-screenshot]](./src/assets/images/دیتی-صفحه-نخست.png)
+![js to vue](./src/assets/images/دیتی-صفحه-نخست.png)
 
 </div>

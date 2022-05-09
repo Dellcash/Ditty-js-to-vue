@@ -4,13 +4,13 @@
 *** Don't forget to give the project a star!
 -->
 
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/dellcash/]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="./src/assets/images/دیتی.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">JS-to-VUE</h3>
@@ -23,6 +23,6 @@
   
   <br />
 
-[![Product Name Screen Shot][product-screenshot]]('/src/assets/images/دیتی-صفحه-نخست.png')
+[![Product Name Screen Shot][product-screenshot]](./src/assets/images/دیتی-صفحه-نخست.png)
 
 </div>

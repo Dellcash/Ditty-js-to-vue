@@ -6,6 +6,7 @@ import Background from "../assets/images/دیتی-پس_زمینه.png";
 import BMI from "../assets/images/دیتی-بی_ام_آی.png";
 import Modal from "../assets/images/دیتی-پنجره-مدال.png";
 import Todo from "../assets/images/دیتی-تسک_ها.png";
+import Users from "../assets/images/دیتی-کاربران.png";
 
 const projects = ref([
 	{
@@ -23,6 +24,10 @@ const projects = ref([
 	{
 		link: "/todo",
 		img: Todo,
+	},
+	{
+		link: "/users",
+		img: Users,
 	},
 ]);
 </script>
@@ -61,6 +66,12 @@ img:hover {
 
 /* mobile */
 @media (max-width: 768px) {
+	main {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 576px) {
 	main {
 		grid-template-columns: 1fr;
 	}

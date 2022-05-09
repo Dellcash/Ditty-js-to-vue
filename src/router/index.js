@@ -44,6 +44,14 @@ const router = createRouter({
       meta: {
         title: 'تسک‌ها'
       }
+    },
+    {
+      path: '/users',
+      name: '/Users',
+      component: () => import('../pages/Users.vue'),
+      meta: {
+        title: 'کاربران'
+      }
     }
   ]
 })

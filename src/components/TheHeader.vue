@@ -30,6 +30,14 @@ const navs = ref([
 		title: "فرم",
 		link: "/form",
 	},
+	{
+		title: "نزدیک‌ترین نظر",
+		link: "/nested",
+	},
+	{
+		title: "پرش اتوماتیک",
+		link: "/auto-input",
+	},
 ]);
 
 const open = ref(false);

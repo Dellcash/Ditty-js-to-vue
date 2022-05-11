@@ -6,7 +6,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://www.linkedin.com/in/dellcash/">
     <img src="./src/assets/images/دیتی.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -15,7 +15,7 @@
   <p align="center">
     این مخزن ۱۰ پروژه جاواسکریپتی ای که توسط سایت 'دیتی' توسعه داده شده بود که من به 'ویوو‌جی‌اس' تبدیلش کردم برای دوستانی که تازه ویوو رو شروع کردن.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">js-to-vue Demo</a>
+    <a href="https://ditty-js-to-vue.netlify.app/">js-to-vue Demo</a>
     ·
     <a href="https://ditty.ir/courses/javascript-projects-for-beginners/introduction/X8gVn">Ditty project page</a>
   </p>

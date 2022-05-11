@@ -7,6 +7,7 @@ import Todo from "./Todo.vue";
 import Users from "./Users.vue";
 import Form from "./Form.vue";
 import NestedComment from "./NestedComment.vue";
+import AutoInput from "./AutoInput.vue";
 </script>
 
 <template>
@@ -28,6 +29,9 @@ import NestedComment from "./NestedComment.vue";
 				<Form />
 			</div>
 			<div class="pic">
+				<AutoInput />
+			</div>
+			<div class="pic">
 				<Users />
 			</div>
 			<div class="pic">
@@ -40,11 +44,12 @@ import NestedComment from "./NestedComment.vue";
 <style scoped>
 main {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 20px;
 	margin: 20px 0;
 	padding: 20px;
 }
+
 .pic {
 	padding: 10px;
 	border: 1px solid #ccc;
@@ -55,15 +60,15 @@ main {
 /* mobile */
 @media (max-width: 768px) {
 	main {
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(1, 1fr);
 	}
 }
-
+/* 
 @media (max-width: 576px) {
 	main {
 		grid-template-columns: 1fr;
 		padding: 0;
 		grid-gap: 0;
 	}
-}
+} */
 </style>

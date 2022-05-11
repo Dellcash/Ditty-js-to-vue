@@ -68,6 +68,14 @@ const router = createRouter({
       meta: {
         title: 'کامنت‌های تودرتو'
       }
+    },
+    {
+      path: '/auto-input',
+      name: 'AutoInput',
+      component: () => import('../pages/AutoInput.vue'),
+      meta: {
+        title: 'پرش اتوماتیک'
+      }
     }
   ]
 })

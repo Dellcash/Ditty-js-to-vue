@@ -9,7 +9,7 @@ const loading = ref(false);
 const getUsers = () => {
 	loading.value = true;
 	axios
-		.get("https://randomuser.me/api/?inc=name,picture&results=48")
+		.get("https://randomuser.me/api/?inc=name,picture&results=10")
 		.then((res) => {
 			users.value = res.data.results;
 			console.log(res.data.results);
@@ -65,7 +65,7 @@ const filterUsers = computed(() => {
 	color: #0008;
 	margin: auto;
 	padding: 40px 15px;
-	height: 100%;
+	/* height: 100vh; */
 	direction: ltr;
 }
 

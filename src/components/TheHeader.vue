@@ -26,6 +26,10 @@ const navs = ref([
 		title: "کاربران",
 		link: "/users",
 	},
+	{
+		title: "فرم",
+		link: "/form",
+	},
 ]);
 
 const open = ref(false);

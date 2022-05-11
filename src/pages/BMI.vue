@@ -69,7 +69,7 @@ const calculateBmi = () => {
 #pmi {
 	font-size: 40px;
 	background-color: crimson;
-	padding: 40px 15px;
+	padding: 5rem 15px;
 	text-align: center;
 	height: 100vh;
 	width: 100%;
@@ -111,16 +111,5 @@ p#result:empty {
 
 label {
 	font-size: 30px;
-}
-
-@media (min-width: 768px) {
-	.container {
-		position: absolute;
-		margin: auto;
-		left: 50%;
-		top: 50%;
-		-webkit-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
-	}
 }
 </style>

@@ -23,7 +23,7 @@ const router = createRouter({
     },
     {
       path: '/bmi',
-      name: '/BMI',
+      name: 'BMI',
       component: () => import('../pages/BMI.vue'),
       meta: {
         title: 'بی‌ام‌آی'
@@ -31,7 +31,7 @@ const router = createRouter({
     },
     {
       path: '/modal',
-      name: '/Modal',
+      name: 'Modal',
       component: () => import('../pages/Modal.vue'),
       meta: {
         title: 'پنجره مدال'
@@ -39,7 +39,7 @@ const router = createRouter({
     },
     {
       path: '/todo',
-      name: '/Todo',
+      name: 'Todo',
       component: () => import('../pages/Todo.vue'),
       meta: {
         title: 'تسک‌ها'
@@ -47,10 +47,26 @@ const router = createRouter({
     },
     {
       path: '/users',
-      name: '/Users',
+      name: 'Users',
       component: () => import('../pages/Users.vue'),
       meta: {
         title: 'کاربران'
+      }
+    },
+    {
+      path: '/form',
+      name: 'Form',
+      component: () => import('../pages/Form.vue'),
+      meta: {
+        title: 'فرم'
+      }
+    },
+    {
+      path: '/nested',
+      name: 'Nested',
+      component: () => import('../pages/NestedComment.vue'),
+      meta: {
+        title: 'کامنت‌های تودرتو'
       }
     }
   ]

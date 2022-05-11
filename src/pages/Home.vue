@@ -1,44 +1,37 @@
 <script setup>
-import { ref } from "vue";
-
-// images
-import Background from "../assets/images/دیتی-پس_زمینه.png";
-import BMI from "../assets/images/دیتی-بی_ام_آی.png";
-import Modal from "../assets/images/دیتی-پنجره-مدال.png";
-import Todo from "../assets/images/دیتی-تسک_ها.png";
-import Users from "../assets/images/دیتی-کاربران.png";
-
-const projects = ref([
-	{
-		link: "/change-background",
-		img: Background,
-	},
-	{
-		link: "/bmi",
-		img: BMI,
-	},
-	{
-		link: "/modal",
-		img: Modal,
-	},
-	{
-		link: "/todo",
-		img: Todo,
-	},
-	{
-		link: "/users",
-		img: Users,
-	},
-]);
+// import { ref } from "vue";
+import ChangeBackground from "./ChangeBackground.vue";
+import BMI from "./BMI.vue";
+import Modal from "./Modal.vue";
+import Todo from "./Todo.vue";
+import Users from "./Users.vue";
+import Form from "./Form.vue";
+import NestedComment from "./NestedComment.vue";
 </script>
 
 <template>
 	<div>
 		<main>
-			<div v-for="project in projects" :key="project" class="pic">
-				<router-link :to="project.link">
-					<img :src="project.img" alt="" />
-				</router-link>
+			<div class="pic">
+				<ChangeBackground />
+			</div>
+			<div class="pic">
+				<BMI />
+			</div>
+			<div class="pic">
+				<Modal />
+			</div>
+			<div class="pic">
+				<Todo />
+			</div>
+			<div class="pic">
+				<Form />
+			</div>
+			<div class="pic">
+				<Users />
+			</div>
+			<div class="pic">
+				<NestedComment />
 			</div>
 		</main>
 	</div>
@@ -47,21 +40,16 @@ const projects = ref([
 <style scoped>
 main {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 20px;
 	margin: 20px 0;
+	padding: 20px;
 }
 .pic {
 	padding: 10px;
-}
-
-img {
-	width: 100%;
-}
-
-img:hover {
-	cursor: pointer;
-	opacity: 0.5;
+	border: 1px solid #ccc;
+	height: 80%;
+	overflow: scroll;
 }
 
 /* mobile */
@@ -74,6 +62,8 @@ img:hover {
 @media (max-width: 576px) {
 	main {
 		grid-template-columns: 1fr;
+		padding: 0;
+		grid-gap: 0;
 	}
 }
 </style>

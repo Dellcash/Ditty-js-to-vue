@@ -67,7 +67,7 @@ const deleteTodo = (id) => {
 	padding: 60px 15px;
 	background-color: pink;
 	color: #0008;
-	height: 100%;
+	height: 100vh;
 	direction: ltr;
 }
 

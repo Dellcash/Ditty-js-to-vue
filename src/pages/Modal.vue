@@ -13,8 +13,8 @@ const closeModal = () => {
 	<div id="app">
 		<h1>Modal</h1>
 		<div class="container">
-			<button @click="modal = !modal" id="modal-1">Modal 1</button>
-			<button id="modal-2">Modal 2</button>
+			<button @click="modal = true" id="modal-1">Modal 1</button>
+			<button @click="modal = true" id="modal-2">Modal 2</button>
 			<button id="modal-3">Modal 3</button>
 			<button id="modal-4">Modal 4</button>
 			<button id="modal-5">Modal 5</button>
@@ -43,7 +43,7 @@ const closeModal = () => {
 	background-color: navajowhite;
 	color: #0009;
 	margin: 0 auto;
-	padding: 0 15px;
+	padding: 2rem 15px;
 	text-align: center;
 	height: 100vh;
 }
@@ -84,15 +84,17 @@ h1 {
 /* modal */
 .modal {
 	position: fixed;
+	display: block;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 99999;
 }
 
 .modal-content {
-	position: absolute;
+	position: fixed;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -103,6 +105,8 @@ h1 {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	direction: ltr;
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	width: 40%;
+	z-index: 99999;
 }
 
 .head {

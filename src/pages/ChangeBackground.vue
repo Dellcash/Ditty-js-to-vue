@@ -4,13 +4,13 @@ import { onMounted, ref } from "vue";
 const colors = ref([
 	"crimson",
 	"deeppink",
-	"deepskyblue",
+	"brown",
 	"gold",
 	"lightgrey",
 	"pink",
 	"orange",
-	"mediumturquoise",
-	"lemonchiffon",
+	"blue",
+	"red",
 	"indigo",
 ]);
 let colorName = ref();
